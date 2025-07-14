@@ -19,7 +19,7 @@ if os.path.isfile(file_name):
 scheme = 'https://'
 
 # Define the timezone
-tehran_tz = pytz.timezone('Asia/Tehran')
+log_tz = pytz.timezone('Asia/Tehran')
 
 # Configure logging
 logging.basicConfig(filename='website_status.log', level=logging.INFO, format='%(asctime)s - %(message)s')
